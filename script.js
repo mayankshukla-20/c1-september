@@ -78,7 +78,7 @@ data.push(newObject);
   
   // 8. Sort by Age
   function sortByAge() {
-    data.sort(data.age);
+    Arrays.sort(data.age);
     for(let i in data){
         console.log(data[i]);
     }
